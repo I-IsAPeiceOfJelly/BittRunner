@@ -1,8 +1,27 @@
+#Hello{
+  position: absolute;
+  top: 0px;
+  left: 800px;
+  width: 800px;
+  height: 700px;
+  background-color: black;
+  border: solid;
+}
+#start{
+  position: absolute;
+    left: 460px; 
+    top: 323px;
+    width: 240px;
+    height: 50px;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
 body {
 
-	background-image: url("http://i.imgur.com/th9sFxp.png");
-    background-size: cover;
-    background-position: center center;
+	background-image: url("http://i.imgur.com/mnlVCpe.png");
+    background-size: 800px 700px;
+    background-repeat: no-repeat;
 }
 
 /*Stuff below governs the start screen*/
@@ -18,22 +37,6 @@ body {
     text-transform: uppercase;
     text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
 }
-
-.button {
-	border: 5px solid #383838;
-    color: #383838;
-    padding: 20px 50px;
-    font-size: 5em;
-    text-decoration: none;
-    background-color: #abc;
-    box-shadow: 15px 15px 80px #555;
-}
-  a.button:hover {
-    background-color: #383838;
-    color: #abc;
-  }
-
-
 
 canvas {
   display:block;
